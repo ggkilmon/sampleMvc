@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <title>Soccer App</title>
+    <script type="text/javascript" src="/Scripts/SoccerApp/app.js"></script>
+    <script type="text/javascript" src="/Scripts/SoccerApp/dataService.js"></script>
+</head>
+
+<body ng-app="SoccerApp" ng-controller="SoccerController">
+    <h1>Chicago Fire Soccer Players</h1>
+    <select id="selPlayers" ng-change="getPlayerData(PlayerListSelected)" ng-model="PlayerListSelected" ng-options="opt.FullName for opt in PlayerList">
+        <option value="">Select Player</option>
+    </select>
+    <div id="divPlayerList" ng-model="PlayerList" ng-show="!isDetail">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="p in PlayerList">
+                    <td>{{p.FullName}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="divPlayerDetail" ng-model="PlayerDetail" ng-show="isDetail">
+        <div>Name: {{PlayerDetail.FullName}}</div>
+        <div>Age: {{PlayerDetail.Age}}</div>
+        <div>Height: {{PlayerDetail.Height}}</div>
+        <div>Weight: {{PlayerDetail.Weight}}</div>
+        <div>Position: {{PlayerDetail.Position}}</div>
+        <div>Jersey Number: {{PlayerDetail.JerseyNumber}}</div>
+        <div>
+            Stats:
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Club</th>
+                        <th>Games Played</th>
+                        <th>Minutes</th>
+                        <th>Shots</th>
+                        <th>Goals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="p in PlayerDetail.Stats">
+                        <td>{{p.Year}}</td>
+                        <td>{{p.Club}}</td>
+                        <td>{{p.GamesPlayed}}</td>
+                        <td>{{p.Minutes}}</td>
+                        <td>{{p.Shots}}</td>
+                        <td>{{p.Goals}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
