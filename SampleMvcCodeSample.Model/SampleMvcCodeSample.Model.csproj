@@ -7,8 +7,8 @@
     <ProjectGuid>{894FC6AD-1123-43A7-BC31-55546C03F496}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BizStreamCodeSample.Model</RootNamespace>
-    <AssemblyName>BizStreamCodeSample.Model</AssemblyName>
+    <RootNamespace>SampleMvcCodeSample.Model</RootNamespace>
+    <AssemblyName>SampleMvcSample.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

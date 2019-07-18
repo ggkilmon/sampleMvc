@@ -9,8 +9,8 @@
     <ProjectGuid>{55D7051D-D122-4720-9D1D-09FA6B69C846}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BizStreamCodeSample.Tests</RootNamespace>
-    <AssemblyName>BizStreamCodeSample.Tests</AssemblyName>
+    <RootNamespace>SampleMvcCodeSample.Tests</RootNamespace>
+    <AssemblyName>SampleMvcSample.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -83,7 +83,9 @@
     <Reference Include="System.Net.Http.WebRequest" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PlayerServiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestPlayerRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -92,9 +94,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SampleMvcCodeSample\SampleMvcCodeSample.Mvc.csproj">
-      <Project>{3A9A33ED-A9DA-487D-9BEE-0435827D34E9}</Project>
-      <Name>BizStreamCodeSample.Mvc</Name>
+    <ProjectReference Include="..\SampleMvcCodeSample.Core\SampleMvcCodeSample.Core.csproj">
+      <Project>{a1db9bca-f25e-4715-8bf6-3f31ac996f7d}</Project>
+      <Name>SampleMvcCodeSample.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleMvcCodeSample.Data\SampleMvcCodeSample.Data.csproj">
+      <Project>{703efb41-52cd-4b4c-8309-6c59803f4f4d}</Project>
+      <Name>SampleMvcCodeSample.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SampleMvcCodeSample.Model\SampleMvcCodeSample.Model.csproj">
+      <Project>{894fc6ad-1123-43a7-bc31-55546c03f496}</Project>
+      <Name>SampleMvcCodeSample.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
