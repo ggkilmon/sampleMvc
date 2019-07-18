@@ -1,12 +1,12 @@
-﻿using BizStreamCodeSample.Data.Models;
-using BizStreamCodeSample.Model;
+﻿using SampleMvcCodeSample.Data.Models;
+using SampleMvcCodeSample.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BizStreamCodeSample.Core.TransformServices
+namespace SampleMvcCodeSample.Core.TransformServices
 {
     public class PlayerTransformService
     {

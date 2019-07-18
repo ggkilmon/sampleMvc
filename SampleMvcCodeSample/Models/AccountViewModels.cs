@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BizStreamCodeSample.Models
+namespace SampleMvcCodeSample.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

@@ -3,7 +3,7 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
 
-namespace BizStreamCodeSample
+namespace SampleMvcCodeSample
 {
     public partial class Startup
     {

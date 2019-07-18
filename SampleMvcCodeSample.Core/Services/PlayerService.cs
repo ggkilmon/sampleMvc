@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BizStreamCodeSample.Data.Repositories.Interfaces;
-using BizStreamCodeSample.Model;
-using BizStreamCodeSample.Data.Models;
-using BizStreamCodeSample.Data.Repositories;
-using BizStreamCodeSample.Core.TransformServices;
+using SampleMvcCodeSample.Data.Repositories.Interfaces;
+using SampleMvcCodeSample.Model;
+using SampleMvcCodeSample.Data.Models;
+using SampleMvcCodeSample.Data.Repositories;
+using SampleMvcCodeSample.Core.TransformServices;
 
-namespace BizStreamCodeSample.Core.Services
+namespace SampleMvcCodeSample.Core.Services
 {
     public class PlayerService
     {

@@ -1,12 +1,12 @@
-﻿using BizStreamCodeSample.Data.Models;
-using BizStreamCodeSample.Data.Repositories.Interfaces;
+﻿using SampleMvcCodeSample.Data.Models;
+using SampleMvcCodeSample.Data.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BizStreamCodeSample.Data.Repositories
+namespace SampleMvcCodeSample.Data.Repositories
 {
     public class PlayerRepository : IPlayerRepository
     {

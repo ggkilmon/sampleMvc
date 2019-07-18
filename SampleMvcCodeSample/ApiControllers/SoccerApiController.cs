@@ -1,6 +1,6 @@
-﻿using BizStreamCodeSample.Core;
-using BizStreamCodeSample.Core.Services;
-using BizStreamCodeSample.Model;
+﻿using SampleMvcCodeSample.Core;
+using SampleMvcCodeSample.Core.Services;
+using SampleMvcCodeSample.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace BizStreamCodeSample.ApiControllers
+namespace SampleMvcCodeSample.ApiControllers
 {
     public class SoccerApiController : ApiController
     {

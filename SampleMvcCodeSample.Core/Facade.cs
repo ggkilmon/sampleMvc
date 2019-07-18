@@ -1,14 +1,14 @@
-﻿using BizStreamCodeSample.Core.Services;
-using BizStreamCodeSample.Core.TransformServices;
-using BizStreamCodeSample.Data.Repositories;
-using BizStreamCodeSample.Data.Repositories.Interfaces;
+﻿using SampleMvcCodeSample.Core.Services;
+using SampleMvcCodeSample.Core.TransformServices;
+using SampleMvcCodeSample.Data.Repositories;
+using SampleMvcCodeSample.Data.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BizStreamCodeSample.Core
+namespace SampleMvcCodeSample.Core
 {
     public class Facade
     {

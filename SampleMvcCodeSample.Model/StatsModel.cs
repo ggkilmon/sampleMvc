@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BizStreamCodeSample.Model
+namespace SampleMvcCodeSample.Model
 {
     public class StatsModel
     {

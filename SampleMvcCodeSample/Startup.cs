@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(BizStreamCodeSample.Startup))]
-namespace BizStreamCodeSample
+[assembly: OwinStartupAttribute(typeof(SampleMvcCodeSample.Startup))]
+namespace SampleMvcCodeSample
 {
     public partial class Startup
     {

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace BizStreamCodeSample
+namespace SampleMvcCodeSample
 {
     public class BundleConfig
     {

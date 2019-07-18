@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace BizStreamCodeSample.Controllers
+namespace SampleMvcCodeSample.Controllers
 {
     public class SoccerController : Controller
     {

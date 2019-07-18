@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace BizStreamCodeSample
+namespace SampleMvcCodeSample
 {
     public class FilterConfig
     {
