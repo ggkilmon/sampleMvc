@@ -239,7 +239,7 @@ namespace SampleMvcCodeSample.Data.Repositories
         {
             if (playerData != null)
             {
-                return playerData.Where(p => p.Id == id).FirstOrDefault();
+                return playerData.FirstOrDefault(p => p.Id == id);
             }
 
             return null;
