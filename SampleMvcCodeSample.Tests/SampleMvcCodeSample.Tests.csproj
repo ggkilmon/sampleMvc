@@ -91,7 +91,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BizStreamCodeSample\BizStreamCodeSample.Mvc.csproj">
+    <ProjectReference Include="..\SampleMvcCodeSample\SampleMvcCodeSample.Mvc.csproj">
       <Project>{3A9A33ED-A9DA-487D-9BEE-0435827D34E9}</Project>
       <Name>BizStreamCodeSample.Mvc</Name>
     </ProjectReference>

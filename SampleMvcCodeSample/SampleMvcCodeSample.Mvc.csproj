@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -231,11 +232,11 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BizStreamCodeSample.Core\BizStreamCodeSample.Core.csproj">
+    <ProjectReference Include="..\SampleMvcCodeSample.Core\SampleMvcCodeSample.Core.csproj">
       <Project>{a1db9bca-f25e-4715-8bf6-3f31ac996f7d}</Project>
       <Name>BizStreamCodeSample.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BizStreamCodeSample.Model\BizStreamCodeSample.Model.csproj">
+    <ProjectReference Include="..\SampleMvcCodeSample.Model\SampleMvcCodeSample.Model.csproj">
       <Project>{894fc6ad-1123-43a7-bc31-55546c03f496}</Project>
       <Name>BizStreamCodeSample.Model</Name>
     </ProjectReference>

@@ -45,11 +45,11 @@
     <Compile Include="TransformServices\PlayerTransformService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BizStreamCodeSample.Data\BizStreamCodeSample.Data.csproj">
+    <ProjectReference Include="..\SampleMvcCodeSample.Data\SampleMvcCodeSample.Data.csproj">
       <Project>{703efb41-52cd-4b4c-8309-6c59803f4f4d}</Project>
       <Name>BizStreamCodeSample.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BizStreamCodeSample.Model\BizStreamCodeSample.Model.csproj">
+    <ProjectReference Include="..\SampleMvcCodeSample.Model\SampleMvcCodeSample.Model.csproj">
       <Project>{894fc6ad-1123-43a7-bc31-55546c03f496}</Project>
       <Name>BizStreamCodeSample.Model</Name>
     </ProjectReference>

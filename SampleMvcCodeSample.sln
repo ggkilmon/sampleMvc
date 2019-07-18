@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizStreamCodeSample.Mvc", "BizStreamCodeSample\BizStreamCodeSample.Mvc.csproj", "{3A9A33ED-A9DA-487D-9BEE-0435827D34E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcCodeSample.Mvc", "SampleMvcCodeSample\SampleMvcCodeSample.Mvc.csproj", "{3A9A33ED-A9DA-487D-9BEE-0435827D34E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizStreamCodeSample.Tests", "BizStreamCodeSample.Tests\BizStreamCodeSample.Tests.csproj", "{55D7051D-D122-4720-9D1D-09FA6B69C846}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcCodeSample.Tests", "SampleMvcCodeSample.Tests\SampleMvcCodeSample.Tests.csproj", "{55D7051D-D122-4720-9D1D-09FA6B69C846}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizStreamCodeSample.Core", "BizStreamCodeSample.Core\BizStreamCodeSample.Core.csproj", "{A1DB9BCA-F25E-4715-8BF6-3F31AC996F7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcCodeSample.Core", "SampleMvcCodeSample.Core\SampleMvcCodeSample.Core.csproj", "{A1DB9BCA-F25E-4715-8BF6-3F31AC996F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizStreamCodeSample.Data", "BizStreamCodeSample.Data\BizStreamCodeSample.Data.csproj", "{703EFB41-52CD-4B4C-8309-6C59803F4F4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcCodeSample.Data", "SampleMvcCodeSample.Data\SampleMvcCodeSample.Data.csproj", "{703EFB41-52CD-4B4C-8309-6C59803F4F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizStreamCodeSample.Model", "BizStreamCodeSample.Model\BizStreamCodeSample.Model.csproj", "{894FC6AD-1123-43A7-BC31-55546C03F496}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleMvcCodeSample.Model", "SampleMvcCodeSample.Model\SampleMvcCodeSample.Model.csproj", "{894FC6AD-1123-43A7-BC31-55546C03F496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

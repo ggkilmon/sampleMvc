@@ -1,0 +1,12 @@
+packages/*
+SampleMvcCodeSample/obj/*
+SampleMvcCodeSample/bin/*
+SampleMvcCodeSample.Tests/obj/*
+SampleMvcCodeSample.Tests/bin/*
+SampleMvcCodeSample.Model/obj/*
+SampleMvcCodeSample.Model/bin/*
+SampleMvcCodeSample.Data/obj/*
+SampleMvcCodeSample.Data/bin/*
+SampleMvcCodeSample.Core/obj/*
+SampleMvcCodeSample.Core/bin/*
+.vs/*
